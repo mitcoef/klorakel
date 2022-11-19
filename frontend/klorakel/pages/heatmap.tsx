@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Map from "../components/Map";
 import { mockToilets } from "../types";
 import styled from "styled-components";
+import { Tooltip } from "react-leaflet";
 
 const MapContainer = styled.div`
 
@@ -39,6 +40,9 @@ export default function Heatmap() {
               <Popup>
                 A pretty CSS3 popup. <br /> Easily customizable.
               </Popup>
+              <Tooltip>
+                Text
+              </Tooltip>
             </Marker>
           </>
         )}
