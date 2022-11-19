@@ -25,18 +25,18 @@ const MapWithNoSSR = dynamic(() => import('../components/GoodMap'), {
 
 const DEFAULT_CENTER = [48.13714, 11.57611];
 
-// function HeatMapComponent() {
-//   const [markers, setMarkers] = useState([]);
-//   const map = useMapEvents({
-//     click: () => {
-//       map.locate();
-//     },
-//     locationfound: (location: any) => {
-//       console.log('location found:', location.latlng)
-//     },
-//   });
-//   return null;
-// }
+function HeatMapComponent() {
+  const [markers, setMarkers] = useState([]);
+  const map = useMapEvents({
+    click: () => {
+      map.locate();
+    },
+    locationfound: (location: any) => {
+      console.log('location found:', location.latlng)
+    },
+  });
+  return null;
+}
 
 export default function HeatMapPage() {
   return (
