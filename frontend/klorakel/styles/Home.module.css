@@ -127,3 +127,9 @@
     filter: invert(1);
   }
 }
+
+.homeMap {
+  height: 30rem;
+  padding: 30px;
+  border-radius: 5px;
+  }
