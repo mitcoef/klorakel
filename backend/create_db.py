@@ -32,8 +32,4 @@ for (n,lat,long) in toilets:
         cursor.execute(query)
 
 db.commit()
-
-query = "SELECT * from toilets;"
-res = cursor.execute(query)
-
 db.close()
