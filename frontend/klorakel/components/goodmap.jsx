@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import 'leaflet/dist/leaflet.css';
+//import 'leaflet/dist/leaflet.css';
 import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 
 export function ChangeView({ coords }) {
