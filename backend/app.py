@@ -21,9 +21,9 @@ def existing():
         query = "SELECT * from toilets;"
         res = cursor.execute(query)
 
-        res2 = (json.dumps(res.fetchall()))
+        reslist = ([{"id":row[0], "name":row[1], "lat":row[2], "long":row[3], "req":row[4]} for row in res.fetchall()])
         db.close()
-        return res2
+        return json.dumps(reslist)
 
 @app.route('/requestedKlos', methods = ["GET"])
 def requested():
@@ -32,9 +32,9 @@ def requested():
         query = "SELECT * from toilets WHERE requested = TRUE;"
         res = cursor.execute(query)
 
-        res2 = (json.dumps(res.fetchall()))
+        reslist = ([{"id":row[0], "name":row[1], "lat":row[2], "long":row[3], "req":row[4]} for row in res.fetchall()])
         db.close()
-        return res2
+        return json.dumps(reslist)
 
 @app.route('/newRequest', methods = ["POST"])
 def request():
