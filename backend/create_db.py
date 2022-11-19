@@ -36,6 +36,4 @@ db.commit()
 query = "SELECT * from toilets;"
 res = cursor.execute(query)
 
-# pprint.pprint(res.fetchall())
-print(json.dumps(res.fetchall()))
 db.close()
