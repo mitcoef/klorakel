@@ -6,8 +6,8 @@ const Bar = styled.nav`
   font-size: 18px;
   background-image: linear-gradient(
     260deg,
-    rgb(42, 244, 152, 255) 0%,
-    #3498db 100%
+    #0088CC 0%,
+    #14B8A2 100%
   );
 `;
 const NavLi = styled.text`
@@ -23,7 +23,7 @@ const Container = styled.nav`
   align: center;
   flex-direction: row;
   justify-content: space-around;
-  padding: 20px;
+  padding: 10px;
 `;
 export default function Navbar() {
   return (
@@ -34,9 +34,6 @@ export default function Navbar() {
         </Link>
         <Link href="/heatmap">
           <NavLi>KloHeatmap</NavLi>
-        </Link>
-        <Link href="/suggest">
-          <NavLi>KloSuggester</NavLi>
         </Link>
       </Container>
     </Bar>
