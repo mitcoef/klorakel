@@ -1,13 +1,30 @@
 import { useState, useEffect } from 'react';
 //import 'leaflet/dist/leaflet.css';
-import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, useMap, useMapEvents } from 'react-leaflet';
 
 export function ChangeView({ coords }) {
   const map = useMap();
   map.setView(coords, 12);
   return null;
 }
+// function LocationMarker() {
+//   const [position, setPosition] = useState(null)
+//   const map = useMapEvents({
+//     click() {
+//       map.locate()
+//     },
+//     locationfound(e) {
+//       setPosition(e.latlng)
+//       map.flyTo(e.latlng, map.getZoom())
+//     },
+//   })
 
+//   return position === null ? null : (
+//     <Marker position={position}>
+//       <Popup>You are here</Popup>
+//     </Marker>
+//   )
+// }
 export default function GoodMap() {
   const [geoData, setGeoData] = useState({lat: 48.13714, lng: 11.57611});
 
@@ -25,4 +42,5 @@ export default function GoodMap() {
       <ChangeView coords={center} /> */}
     </MapContainer>
   );
+
 }
