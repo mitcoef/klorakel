@@ -1,0 +1,400 @@
+Neuer Südfriedhof
+lat: 48.1005949 long: 11.6224059
+
+
+Öffentliche Toilette "Lorettoplatz"
+lat: 48.1034748 long: 11.4890378
+
+
+Öffentliche Toilette "Bavariaring 5"
+lat: 48.1363899 long: 11.54985
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.0922698 long: 11.5478861
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.095602 long: 11.544367
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.095258 long: 11.5461641
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1024913 long: 11.552301
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1095696 long: 11.5588885
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1116398 long: 11.5591728
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1177642 long: 11.5624397
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.121639 long: 11.5680187
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1236218 long: 11.5716082
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1266296 long: 11.5774232
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1236146 long: 11.5715974
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1116387 long: 11.5591198
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1095685 long: 11.5588838
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1352285 long: 11.5888463
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1333489 long: 11.588798
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.0944531 long: 11.548994
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1074503 long: 11.5526311
+
+
+Öffentliche Toilettenkabine Isarauen
+lat: 48.1177977 long: 11.5658598
+
+
+Friedhof Daglfing
+lat: 48.1522575 long: 11.6573275
+
+
+Friedhof Haidhausen
+lat: 48.1332798 long: 11.6045192
+
+
+Friedhof Riem
+lat: 48.1321057 long: 11.6800315
+
+
+Friedhof Feldmoching
+lat: 48.216013 long: 11.526011
+
+
+Friedhof Sendling
+lat: 48.1166359 long: 11.536361
+
+
+Friedhof Solln
+lat: 48.0786754 long: 11.5174349
+
+
+Waldfriedhof Solln
+lat: 48.0681516 long: 11.5131724
+
+
+Friedhof Perlach
+lat: 48.0983192 long: 11.6409703
+
+
+Friedhof Allach
+lat: 48.20033 long: 11.4570771
+
+
+Friedhof Aubing
+lat: 48.1545708 long: 11.4094021
+
+
+Friedhof Lochhausen
+lat: 48.1840833 long: 11.4064665
+
+
+Friedhof Pasing
+lat: 48.1369567 long: 11.4576911
+
+
+Friedhof Untermenzing
+lat: 48.177669 long: 11.4604223
+
+
+Nordfriedhof
+lat: 48.1748661 long: 11.6002139
+
+
+Westfriedhof
+lat: 48.1693044 long: 11.5256368
+
+
+Waldfriedhof Neuer Teil
+lat: 48.1003904 long: 11.4863302
+
+
+Friedhof Pasing/Obermenzing
+lat: 48.1662985 long: 11.4493563
+
+
+Waldfriedhof Alter Teil
+lat: 48.1091163 long: 11.5001094
+
+
+Friedhof am Perlacher Forst
+lat: 48.0996733 long: 11.5963591
+
+
+Krematorium
+lat: 48.1201859 long: 11.5954773
+
+
+Öffentliche Toilette "Aidenbachstraße (im U-Bahnhof)"
+lat: 48.0980482 long: 11.5241144
+
+
+Öffentliche Toilette "Am Harras (im U-Bahnhof)"
+lat: 48.1169826 long: 11.5381495
+
+
+Öffentliche Toilette "Am Hart (im U-Bahnhof)"
+lat: 48.1954889 long: 11.5715441
+
+
+Öffentliche Toilette "Arabellapark (im U-Bahnhof)"
+lat: 48.1534624 long: 11.6227647
+
+
+Öffentliche Toilette "Belgradstraße 113 (beim U-Bahnhof Scheidplatz)"
+lat: 48.1707962 long: 11.5723277
+
+
+Öffentliche Toilette "Böhmerwaldplatz (im U-Bahnhof)"
+lat: 48.1428966 long: 11.6150349
+
+
+Öffentliche Toilette "Brudermühlstraße (im U-Bahnhof)"
+lat: 48.1129414 long: 11.5486742
+
+
+Öffentliche Toilette "Candidplatz (im U-Bahnhof)"
+lat: 48.1126041 long: 11.5710105
+
+
+Öffentliche Toilette "Dülferstraße (im U-Bahnhof)"
+lat: 48.2128129 long: 11.5627478
+
+
+Lusssee nordöstlich
+lat: 48.2006134 long: 11.4208298
+
+
+Öffentliche Toilette "Elisabethplatz 4c"
+lat: 48.1570978 long: 11.5743366
+
+
+Öffentliche Toilette "Feldmoching (im U-Bahnhof)"
+lat: 48.2139 long: 11.5416664
+
+
+Öffentliche Toilette "Forstenrieder Allee (im U-Bahnhof)"
+lat: 48.095069 long: 11.4981645
+
+
+Öffentliche Toilette "Frankfurter Ring (im U-Bahnhof)"
+lat: 48.1879383 long: 11.5725618
+
+
+Öffentliche Toilette "Fraunhoferstraße (im U-Bahnhof)"
+lat: 48.1289507 long: 11.574945
+
+
+Öffentliche Toilette "Friedenheimer Straße (im U-Bahnhof)"
+lat: 48.1352063 long: 11.5106049
+
+
+Öffentliche Toilette "Fürstenried West (beim U-Bahnhof)"
+lat: 48.0886781 long: 11.4806823
+
+
+Öffentliche Toilette "Giesing (im U-Bahnhof)"
+lat: 48.110883 long: 11.5949017
+
+
+Öffentliche Toilette "Goetheplatz (im U-Bahnhof)"
+lat: 48.1294727 long: 11.5583095
+
+
+Gollierplatz
+lat: 48.1365425 long: 11.5346154
+
+
+Öffentliche Toilette "Großhadern (im U-Bahnhof)"
+lat: 48.1150576 long: 11.4770996
+
+
+Öffentliche Toilette "Haderner Stern (im U-Bahnhof)"
+lat: 48.1184191 long: 11.4906847
+
+
+Öffentliche Toilette "Harthof (im U-Bahnhof)"
+lat: 48.2047978 long: 11.5693678
+
+
+Öffentliche Toilette "Hasenbergl (im U-Bahnhof)"
+lat: 48.2134049 long: 11.5553016
+
+
+Öffentliche Toilette "Hauptbahnhof (beim U-Bahnhof - Fernbahn)"
+lat: 48.1395313 long: 11.5589048
+
+
+Lerchenauer See
+lat: 48.1993935 long: 11.5361556
+
+
+Öffentliche Toilette "Herkomerplatz 1a"
+lat: 48.1511641 long: 11.6078098
+
+
+Öffentliche Toilette "Holzapfelkreuth (im U-Bahnhof)"
+lat: 48.1162994 long: 11.5015709
+
+
+Öffentliche Toilette "Innsbrucker Ring (im U-Bahnhof)"
+lat: 48.1204278 long: 11.6194469
+
+
+Petuelpark (im Cafehaus)
+lat: 48.1774701 long: 11.5794514
+
+
+Öffentliche Toilette "Josephsplatz (im U-Bahnhof)"
+lat: 48.1549107 long: 11.5666532
+
+
+Öffentliche Toilette "Karl-Preis-Platz (im U-Bahnhof)"
+lat: 48.1178085 long: 11.6080499
+
+
+Fasaneriesee nordwestlich
+lat: 48.2063437 long: 11.5281174
+
+
+Fasaneriesee Parkplatz südwestlich
+lat: 48.202563 long: 11.5258643
+
+
+Öffentliche Toilette "Kieferngarten (beim U-Bahnhof in P+R-Anlage)"
+lat: 48.202045 long: 11.6121307
+
+
+Öffentliche Toilette "Klinikum Großhadern (beim U-Bahnhof)"
+lat: 48.1084983 long: 11.4724795
+
+
+Öffentliche Toilette "Kolumbusplatz (im U-Bahnhof)"
+lat: 48.1194512 long: 11.5767156
+
+
+Feldmochinger See
+lat: 48.2168727 long: 11.5147072
+
+
+Öffentliche Toilette "Kurfürstenplatz 6b"
+lat: 48.1599871 long: 11.5750117
+
+
+Öffentliche Toilette "Laimer Platz (im U-Bahnhof)"
+lat: 48.1354683 long: 11.5024739
+
+
+Öffentliche Toilette "Lehel (im U-Bahnhof)"
+lat: 48.1394948 long: 11.5883618
+
+
+Öffentliche Toilette "Mangfallplatz"
+lat: 48.0969197 long: 11.5783637
+
+
+Öffentliche Toilette "Marienplatz (im S- u. U-Bahnhof)"
+lat: 48.13687 long: 11.5763174
+
+
+Öffentliche Toilette "Marienplatz Neues Rathaus (im Prunkhof)"
+lat: 48.1378478 long: 11.575651
+
+
+Birkensee südöstlich
+lat: 48.2027093 long: 11.4192232
+
+
+Öffentliche Toilette "Max-Weber-Platz (im U-Bahnhof)"
+lat: 48.1355999 long: 11.5983218
+
+
+Öffentliche Toilette "Messestadt Ost (im U-Bahnhof)"
+lat: 48.1334122 long: 11.7045287
+
+
+Öffentliche Toilette "Messestadt West (im U-Bahnhof)"
+lat: 48.1333787 long: 11.6917254
+
+
+Öffentliche Toilette "Milbertshofen (im U-Bahnhof)"
+lat: 48.1800712 long: 11.5730978
+
+
+Öffentliche Toilette "Münchner Freiheit (im U-Bahnhof)"
+lat: 48.1623753 long: 11.5862434
+
+
+Öffentliche Toilette "Neuperlach Süd (im S- u. U-Bahnhof)"
+lat: 48.089561 long: 11.6443333
+
+
+Öffentliche Toilette "Obersendling (im U-Bahnhof)"
+lat: 48.0982318 long: 11.5360483
+
+
+Öffentliche Toilette "Odeonsplatz 19"
+lat: 48.1426152 long: 11.578353
+
+
+Olympiaberg
+lat: 48.170954 long: 11.5546599
+
+
+Öffentliche Toilette "Olympia-Einkaufszentrum (im U-Bahnhof)"
+lat: 48.1821243 long: 11.5299137
+
+
+Öffentliche Toilette "Olympiazentrum (im U-Bahnhof)"
+lat: 48.178703 long: 11.5561393
+
+
+Öffentliche Toilette "Prinzregentenplatz (im U-Bahnhof)"
+lat: 48.1389294 long: 11.6067205
+
+
+Öffentliche Toilette "Richard-Strauss-Straße (im U-Bahnhof)"
+lat: 48.1488663 long: 11.617154
+
+
+Öffentliche Toilette "Rotkreuzplatz (im U-Bahnhof)"
+lat: 48.1544028 long: 11.5333654
+
+
