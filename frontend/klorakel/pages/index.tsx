@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 //import "leaflet-heatmap.js";
-import Map from "../components/Map";
+import Map from "../components/Map/index";
 import { mockToilets } from "../types";
 import styled from "styled-components";
 

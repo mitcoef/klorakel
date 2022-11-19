@@ -4,11 +4,13 @@ import Map from "../components/Map";
 import { mockToilets } from "../types";
 import styled from "styled-components";
 import React, { useState } from "react";
-import {
-  StyledButton,
-  MapContainer,
-  PageContainer,
-} from "../components/components";
+import ReactLeaflet, { useMapEvents } from "react-leaflet";
+import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet";
+import { StyledButton, MapCont, PageContainer } from "../components/components";
+import { useEffect } from "react";
+import L from "leaflet";
+import dynamic from 'next/dynamic';
+
 
 const ButtonContainer = styled.div`
   display: flex;
@@ -16,47 +18,32 @@ const ButtonContainer = styled.div`
   justify-content: space-evenly;
 `;
 
+
+const MapWithNoSSR = dynamic(() => import('../components/GoodMap'), {
+  ssr: false,
+});
+
 const DEFAULT_CENTER = [48.13714, 11.57611];
-export default function Heatmap() {
-  const [markers, setMarkers] = useState([]);
 
-  function addMarker(e:any) {
-    markers.push(e.latlng);
-    setMarkers(markers.push(e.latlng));
-  }
+// function HeatMapComponent() {
+//   const [markers, setMarkers] = useState([]);
+//   const map = useMapEvents({
+//     click: () => {
+//       map.locate();
+//     },
+//     locationfound: (location: any) => {
+//       console.log('location found:', location.latlng)
+//     },
+//   });
+//   return null;
+// }
 
+export default function HeatMapPage() {
   return (
     <PageContainer>
-      <MapContainer>
-        <Map
-          className={styles.homeMap}
-          center={DEFAULT_CENTER}
-          onClick={addMarker}
-          zoom={12}
-        >
-          {({
-            TileLayer,
-            Marker,
-            Popup,
-          }: {
-            TileLayer: any;
-            Marker: any;
-            Popup: any;
-          }) => (
-            <>
-              <TileLayer
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-              />
-              <Marker position={DEFAULT_CENTER}>
-                <Popup>
-                  A pretty CSS3 popup. <br /> Easily customizable.
-                </Popup>
-              </Marker>
-            </>
-          )}
-        </Map>
-      </MapContainer>
+      <MapCont>
+        <MapWithNoSSR></MapWithNoSSR>
+      </MapCont>
       <ButtonContainer>
         <StyledButton>Suggest a new toilet location!</StyledButton>
       </ButtonContainer>

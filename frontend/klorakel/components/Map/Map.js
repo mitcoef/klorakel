@@ -17,7 +17,7 @@ const Map = ({ children, className, ...rest }) => {
   if ( className ) {
     mapClassName = `${mapClassName} ${className}`;
   }
-
+  
   useEffect(() => {
     (async function init() {
       delete L.Icon.Default.prototype._getIconUrl;
@@ -29,6 +29,7 @@ const Map = ({ children, className, ...rest }) => {
       });
     })();
   }, []);
+
 
   return (
     <MapContainer className={mapClassName} {...rest}>

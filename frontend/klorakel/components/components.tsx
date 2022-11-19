@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
 
 
 //map goes in here
-export const MapContainer = styled.div`
+export const MapCont = styled.div`
   height: 30rem;
   display: flex;
   align: center;
