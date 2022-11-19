@@ -4,12 +4,15 @@ import Map from "../components/Map/index";
 import { mockToilets } from "../types";
 import styled from "styled-components";
 import React, { useState } from "react";
+import HeatmapLayer from "react-leaflet-heatmap-layer";
 import ReactLeaflet, { Tooltip, useMapEvents } from "react-leaflet";
 import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet";
 import { StyledButton, MapCont, PageContainer } from "../components/components";
 import { useEffect } from "react";
 import L from "leaflet";
 import dynamic from "next/dynamic";
+
+
 
 const ButtonContainer = styled.div`
   display: flex;
@@ -23,18 +26,7 @@ const ButtonContainer = styled.div`
 
 const DEFAULT_CENTER = [48.2626782, 11.6679158];
 
-// function HeatMapComponent() {
-//   const [markers, setMarkers] = useState();
-//   const map = useMapEvents({
-//     click: () => {
-//       map.locate();
-//     },
-//     locationfound: (location: any) => {
-//       console.log('location found:', location.latlng)
-//     },
-//   });
-//   return null;
-// }
+
 
 export default function HeatMapPage() {
   const [markers, setMarkers] = useState<GeolocationCoordinates[]>();
@@ -60,6 +52,18 @@ export default function HeatMapPage() {
       .then((data) => console.log(data));
   };
 
+  const [toilets, setToilets] = useState(Array())
+
+  const fetchToilets = () => {
+    fetch("http://127.0.0.1:8000/requestedKlos")
+      .then((response) => response.json())
+      .then((data) => setToilets(data));
+    }
+
+    useEffect(() => {
+      fetchToilets()
+    }, []);
+
   return (
     <PageContainer>
       <MapCont>
@@ -74,6 +78,13 @@ export default function HeatMapPage() {
             Popup: any;
           }) => (
             <>
+            <HeatmapLayer
+            fitBoundsOnLoad
+            fitBoundsOnUpdate
+            points={toilets}
+            longitudeExtractor={(m:any) => m[1]}
+            latitudeExtractor={(m:any) => m[0]}
+            intensityExtractor={(m:any) => 1} />
               <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
