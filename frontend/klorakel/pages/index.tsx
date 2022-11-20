@@ -1,13 +1,9 @@
 import styles from "../styles/Home.module.css";
 //import "leaflet-heatmap.js";
 import Map from "../components/Map/index";
-import { mockToilets } from "../types";
-import styled from "styled-components";
 import { MapCont, PageContainer } from "../components/components";
 import { useEffect, useState } from "react";
 
-import axios from "axios";
-import useSWR from "swr";
 
 // const MapContainer = styled.div`
 //   display: flex;

@@ -1,17 +1,16 @@
 import styles from "../styles/Home.module.css";
+import HeatmapLayer from "react-leaflet-heatmap-layer";
+
 //import "leaflet-heatmap.js";
 import Map from "../components/Map/index";
-import { mockToilets } from "../types";
 import styled from "styled-components";
 import React, { useState } from "react";
-import HeatmapLayer from "react-leaflet-heatmap-layer";
-import ReactLeaflet, { Tooltip, useMapEvents } from "react-leaflet";
-import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet";
+
+import { Tooltip } from "react-leaflet";
 import { StyledButton, MapCont, PageContainer } from "../components/components";
 import { useEffect } from "react";
-import L from "leaflet";
-import dynamic from "next/dynamic";
-
+// const heatmaplayer = require('react-leaflet-heatmap-layer');
+// const {HeatmapLayer} = heatmaplayer;
 
 
 const ButtonContainer = styled.div`
@@ -82,9 +81,10 @@ export default function HeatMapPage() {
             fitBoundsOnLoad
             fitBoundsOnUpdate
             points={toilets}
-            longitudeExtractor={(m:any) => m[1]}
-            latitudeExtractor={(m:any) => m[0]}
-            intensityExtractor={(m:any) => 1} />
+            longitudeExtractor={(m:any) => m.lat}
+            latitudeExtractor={(m:any) => m.long}
+            intensityExtractor={(m:any) => 1}
+            radius={10} />
               <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
