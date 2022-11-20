@@ -124,4 +124,11 @@
 .homeMap {
   padding: 30px;
   border-radius: 5px;
-  }
+}
+
+.active {
+  background: #696773;
+  font: bold;
+  color: #EAE8FF;
+  border-radius: 15px;
+}
