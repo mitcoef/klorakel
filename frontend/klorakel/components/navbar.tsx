@@ -33,7 +33,7 @@ export default function Navbar() {
           <NavLi>KloFinder</NavLi>
         </Link>
         <Link href="/heatmap">
-          <NavLi>KloHeatmap</NavLi>
+          <NavLi>KloCluster</NavLi>
         </Link>
       </Container>
     </Bar>
